@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CE72D0072F4B716E00F334B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE72CFF12F4B716C00F334B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE72CFF82F4B716C00F334B6;
+			remoteInfo = "Meeting Expense Calc";
+		};
+		CE72D0112F4B716E00F334B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE72CFF12F4B716C00F334B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE72CFF82F4B716C00F334B6;
+			remoteInfo = "Meeting Expense Calc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE72CFF92F4B716C00F334B6 /* Meeting Expense Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meeting Expense Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE72D0062F4B716E00F334B6 /* Meeting Expense CalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meeting Expense CalcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE72D0102F4B716E00F334B6 /* Meeting Expense CalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meeting Expense CalcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CE72CFFB2F4B716C00F334B6 /* Meeting Expense Calc */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Meeting Expense Calc";
+			sourceTree = "<group>";
+		};
+		CE72D0092F4B716E00F334B6 /* Meeting Expense CalcTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Meeting Expense CalcTests";
+			sourceTree = "<group>";
+		};
+		CE72D0132F4B716E00F334B6 /* Meeting Expense CalcUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Meeting Expense CalcUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE72CFF62F4B716C00F334B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE72D0032F4B716E00F334B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE72D00D2F4B716E00F334B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE72CFF02F4B716C00F334B6 = {
+			isa = PBXGroup;
+			children = (
+				CE72CFFB2F4B716C00F334B6 /* Meeting Expense Calc */,
+				CE72D0092F4B716E00F334B6 /* Meeting Expense CalcTests */,
+				CE72D0132F4B716E00F334B6 /* Meeting Expense CalcUITests */,
+				CE72CFFA2F4B716C00F334B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE72CFFA2F4B716C00F334B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE72CFF92F4B716C00F334B6 /* Meeting Expense Calc.app */,
+				CE72D0062F4B716E00F334B6 /* Meeting Expense CalcTests.xctest */,
+				CE72D0102F4B716E00F334B6 /* Meeting Expense CalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE72CFF82F4B716C00F334B6 /* Meeting Expense Calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE72D01A2F4B716E00F334B6 /* Build configuration list for PBXNativeTarget "Meeting Expense Calc" */;
+			buildPhases = (
+				CE72CFF52F4B716C00F334B6 /* Sources */,
+				CE72CFF62F4B716C00F334B6 /* Frameworks */,
+				CE72CFF72F4B716C00F334B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CE72CFFB2F4B716C00F334B6 /* Meeting Expense Calc */,
+			);
+			name = "Meeting Expense Calc";
+			packageProductDependencies = (
+			);
+			productName = "Meeting Expense Calc";
+			productReference = CE72CFF92F4B716C00F334B6 /* Meeting Expense Calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE72D0052F4B716E00F334B6 /* Meeting Expense CalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE72D01D2F4B716E00F334B6 /* Build configuration list for PBXNativeTarget "Meeting Expense CalcTests" */;
+			buildPhases = (
+				CE72D0022F4B716E00F334B6 /* Sources */,
+				CE72D0032F4B716E00F334B6 /* Frameworks */,
+				CE72D0042F4B716E00F334B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE72D0082F4B716E00F334B6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CE72D0092F4B716E00F334B6 /* Meeting Expense CalcTests */,
+			);
+			name = "Meeting Expense CalcTests";
+			packageProductDependencies = (
+			);
+			productName = "Meeting Expense CalcTests";
+			productReference = CE72D0062F4B716E00F334B6 /* Meeting Expense CalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE72D00F2F4B716E00F334B6 /* Meeting Expense CalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE72D0202F4B716E00F334B6 /* Build configuration list for PBXNativeTarget "Meeting Expense CalcUITests" */;
+			buildPhases = (
+				CE72D00C2F4B716E00F334B6 /* Sources */,
+				CE72D00D2F4B716E00F334B6 /* Frameworks */,
+				CE72D00E2F4B716E00F334B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE72D0122F4B716E00F334B6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CE72D0132F4B716E00F334B6 /* Meeting Expense CalcUITests */,
+			);
+			name = "Meeting Expense CalcUITests";
+			packageProductDependencies = (
+			);
+			productName = "Meeting Expense CalcUITests";
+			productReference = CE72D0102F4B716E00F334B6 /* Meeting Expense CalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE72CFF12F4B716C00F334B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					CE72CFF82F4B716C00F334B6 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					CE72D0052F4B716E00F334B6 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = CE72CFF82F4B716C00F334B6;
+					};
+					CE72D00F2F4B716E00F334B6 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = CE72CFF82F4B716C00F334B6;
+					};
+				};
+			};
+			buildConfigurationList = CE72CFF42F4B716C00F334B6 /* Build configuration list for PBXProject "Meeting Expense Calc" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE72CFF02F4B716C00F334B6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CE72CFFA2F4B716C00F334B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE72CFF82F4B716C00F334B6 /* Meeting Expense Calc */,
+				CE72D0052F4B716E00F334B6 /* Meeting Expense CalcTests */,
+				CE72D00F2F4B716E00F334B6 /* Meeting Expense CalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE72CFF72F4B716C00F334B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE72D0042F4B716E00F334B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE72D00E2F4B716E00F334B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE72CFF52F4B716C00F334B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE72D0022F4B716E00F334B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE72D00C2F4B716E00F334B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE72D0082F4B716E00F334B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE72CFF82F4B716C00F334B6 /* Meeting Expense Calc */;
+			targetProxy = CE72D0072F4B716E00F334B6 /* PBXContainerItemProxy */;
+		};
+		CE72D0122F4B716E00F334B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE72CFF82F4B716C00F334B6 /* Meeting Expense Calc */;
+			targetProxy = CE72D0112F4B716E00F334B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE72D0182F4B716E00F334B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = KJ47YGNM8Z;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE72D0192F4B716E00F334B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = KJ47YGNM8Z;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CE72D01B2F4B716E00F334B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ47YGNM8Z;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aurora.Meeting-Expense-Calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CE72D01C2F4B716E00F334B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ47YGNM8Z;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aurora.Meeting-Expense-Calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CE72D01E2F4B716E00F334B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ47YGNM8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aurora.Meeting-Expense-CalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meeting Expense Calc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meeting Expense Calc";
+			};
+			name = Debug;
+		};
+		CE72D01F2F4B716E00F334B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ47YGNM8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aurora.Meeting-Expense-CalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meeting Expense Calc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meeting Expense Calc";
+			};
+			name = Release;
+		};
+		CE72D0212F4B716E00F334B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ47YGNM8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aurora.Meeting-Expense-CalcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Meeting Expense Calc";
+			};
+			name = Debug;
+		};
+		CE72D0222F4B716E00F334B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ47YGNM8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aurora.Meeting-Expense-CalcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Meeting Expense Calc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE72CFF42F4B716C00F334B6 /* Build configuration list for PBXProject "Meeting Expense Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE72D0182F4B716E00F334B6 /* Debug */,
+				CE72D0192F4B716E00F334B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE72D01A2F4B716E00F334B6 /* Build configuration list for PBXNativeTarget "Meeting Expense Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE72D01B2F4B716E00F334B6 /* Debug */,
+				CE72D01C2F4B716E00F334B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE72D01D2F4B716E00F334B6 /* Build configuration list for PBXNativeTarget "Meeting Expense CalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE72D01E2F4B716E00F334B6 /* Debug */,
+				CE72D01F2F4B716E00F334B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE72D0202F4B716E00F334B6 /* Build configuration list for PBXNativeTarget "Meeting Expense CalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE72D0212F4B716E00F334B6 /* Debug */,
+				CE72D0222F4B716E00F334B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE72CFF12F4B716C00F334B6 /* Project object */;
+}
