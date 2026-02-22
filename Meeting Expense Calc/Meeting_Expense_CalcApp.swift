@@ -10,8 +10,10 @@ import SwiftUI
 @main
 struct Meeting_Expense_CalcApp: App {
     var body: some Scene {
-        WindowGroup {
+        WindowGroup("Meeting Cost Calculator") {
             ContentView()
         }
+        .defaultSize(width: 480, height: 520)
+        .windowResizability(.contentSize)
     }
 }
